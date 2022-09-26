@@ -1,0 +1,44 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Manrope', sans-serif; */
+
+
+.body {
+    background-color: #f1f1f1;
+}
+
+
+.logo__img {
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 2rem;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em;
+    background-color: #fdfdfd;
+    padding: 0.3rem;
+    
+}
+
+.menu__link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    padding: 1.5rem;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.menu__link:hover {
+    border-radius: 40%;
+    border: 3px solid #AEE5C8;
+    box-shadow: 20px 20px 50px 10px #D9EAE1 inset;
+    color: #53A2C1;
+}
