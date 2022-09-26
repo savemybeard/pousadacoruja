@@ -1,0 +1,19 @@
+
+
+
+.conteudo_home__destaque {
+    background-image: url(../img/externo2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 80 20%;
+    grid-template-areas: 
+        "imagem"
+        "descricao";
+    grid-template-rows: 400px auto;
+    margin-left: 1rem;
+}
+.conteudo_home__destaque--img {
+    grid-area: imagem;
+    
+}
